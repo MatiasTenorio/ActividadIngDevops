@@ -3,3 +3,7 @@
 Java
 ## Idea principal
 Ninguna
+## Bloque codigo
+```python
+print("Hola mundo!")
+```

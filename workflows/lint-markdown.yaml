@@ -1,5 +1,6 @@
 name: WorkFlow 
 
+
 on:
   push:
     branches:
@@ -12,8 +13,7 @@ jobs:
     steps:
       - name: "Run Markdownlint" 
           # Usamos la acción oficial que es más estable 
-        uses: davidanson/markdownlint-cli2-action@v16 
-        
+        uses: davidanson/markdownlint-cli2-action@v16         
         with: 
             # Busca automáticamente el archivo .markdownlint.json o .markdownlint-cli2.jsonc 
           config: '.markdownlint.json' 
